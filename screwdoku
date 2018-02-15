@@ -42,7 +42,7 @@ class Board
       puts "#{i} #{row.join(" ")}"
     end
   end
-  #
+
   def rows
     grid
   end
