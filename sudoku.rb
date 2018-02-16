@@ -1,5 +1,5 @@
 require_relative "board"
-
+require_relative "colorize"
 class SudokuGame
   def self.from_file(filename)
     board = Board.from_file(filename)
