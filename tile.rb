@@ -1,7 +1,7 @@
-require_relative "colorize"
+require "colorize"
 
 class Tile
-  attr_reader :value, :blue, :red
+  attr_reader :value
 
   def initialize(value)
     @value = value
